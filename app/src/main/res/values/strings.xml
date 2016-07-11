@@ -1,8 +1,40 @@
 <resources>
-    <string name="app_name">Global-Converter</string>
+    <string name="app_name">Global Converter</string>
 
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
 
-    <string name="action_settings">Settings</string>
+    <!-- Drawer -->
+    <string name="General">General</string>
+    <string name="Weight">Weight</string>
+    <string name="Volume">Volume</string>
+    <string name="Temperature">Temperature</string>
+    <string name="Commodity">Commodity</string>
+    <string name="Currency">Currency</string>
+    <string name="Stock">Stock</string>
+    <string name="Physics">Physics</string>
+    <string name="Work">Work</string>
+    <string name="Force">Force</string>
+    <string name="Gravity">Gravity</string>
+    <string name="weight_Name">Weight</string>
+
+    <!-- Buttons -->
+    <string name="_0">0</string>
+    <string name="_1">1</string>
+    <string name="_2">2</string>
+    <string name="_3">3</string>
+    <string name="_4">4</string>
+    <string name="_5">5</string>
+    <string name="_6">6</string>
+    <string name="_7">7</string>
+    <string name="_8">8</string>
+    <string name="_9">9</string>
+    <string name="_sign">+/-</string>
+    <string name="_dot">.</string>
+
+    <!-- Image Buttons -->
+    <string name="backspace">Backspace</string>
+    <string name="swap_the_two_units">Swap the two units</string>
+    <string name="clears_inputs">Clears inputs</string>
+    <string name="calculate">Calculate</string>
 </resources>

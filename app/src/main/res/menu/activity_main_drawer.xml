@@ -1,35 +1,50 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
 
-    <group android:checkableBehavior="single">
-        <item
-            android:id="@+id/nav_camera"
-            android:icon="@drawable/ic_menu_camera"
-            android:title="Import" />
-        <item
-            android:id="@+id/nav_gallery"
-            android:icon="@drawable/ic_menu_gallery"
-            android:title="Gallery" />
-        <item
-            android:id="@+id/nav_slideshow"
-            android:icon="@drawable/ic_menu_slideshow"
-            android:title="Slideshow" />
-        <item
-            android:id="@+id/nav_manage"
-            android:icon="@drawable/ic_menu_manage"
-            android:title="Tools" />
-    </group>
-
-    <item android:title="Communicate">
+    <item android:title="@string/General">
         <menu>
             <item
-                android:id="@+id/nav_share"
-                android:icon="@drawable/ic_menu_share"
-                android:title="Share" />
+                android:id="@+id/nav_weight"
+                android:icon="@drawable/ic_weight"
+                android:title="@string/Weight" />
             <item
-                android:id="@+id/nav_send"
-                android:icon="@drawable/ic_menu_send"
-                android:title="Send" />
+                android:id="@+id/nav_volume"
+                android:icon="@drawable/ic_volume"
+                android:title="@string/Volume" />
+            <item
+                android:id="@+id/nav_temperature"
+                android:icon="@drawable/ic_temperature"
+                android:title="@string/Temperature" />
+        </menu>
+    </item>
+
+    <item android:title="@string/Commodity">
+        <menu>
+            <item
+                android:id="@+id/nav_currency"
+                android:icon="@drawable/ic_currency"
+                android:title="@string/Currency" />
+            <item
+                android:id="@+id/nav_stock"
+                android:icon="@drawable/ic_stock"
+                android:title="@string/Stock" />
+        </menu>
+    </item>
+
+    <item android:title="@string/Physics">
+        <menu>
+            <item
+                android:id="@+id/nav_work"
+                android:icon="@drawable/ic_work"
+                android:title="@string/Work" />
+            <item
+                android:id="@+id/nav_force"
+                android:icon="@drawable/ic_weight"
+                android:title="@string/Force" />
+            <item
+                android:id="@+id/nav_gravity"
+                android:icon="@drawable/ic_gravity"
+                android:title="@string/Gravity" />
         </menu>
     </item>
 
